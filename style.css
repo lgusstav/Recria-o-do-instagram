@@ -18,7 +18,7 @@ body {
 
 }
 
-.Instagram-wrapper {
+.instagram-wrapper {
   display: flex;
   align-items: center;
   justify-content: start;
@@ -57,12 +57,12 @@ body {
     border: 1px solid lightgray;
 }
 
-.group:nth-child(1){
- min-width: 19rem;
+.group:nth-child(1) {
+  min-width: 19rem;
 
 }
 
-.instagramlogo {
+.instagram-logo {
     height: 3rem;
 }
 
@@ -78,17 +78,18 @@ body {
 
 .profile-photo img {
     height: 6rem;
+    border-radius: 100%;
+    margin: 15px;
 }
 
-.intagram-loguin {
+.instagram-login {
     background-color: #0095f6;
     color: #ffffff;
     padding: 8px;
     border-radius: 4px;
-
 }
 
-.intagram-logout {
+.instagram-logout {
   color: #0095f6;
   margin-top: 1rem;
   
@@ -100,7 +101,6 @@ body {
 
 .link-blue {
     color:#0095f6;
-
 }
 
 .get-the-app {
@@ -138,7 +138,7 @@ body {
 /* media queries */
 
 @media (max-width: 1024px) {
-    .Instagram-wrapper{
+    .instagram-wrapper{
         width: 90%;
     }
     
@@ -146,10 +146,10 @@ body {
 
 @media (max-width: 650px) {
     body{
-        background-color: rgb(243, 243, 243);
+        background-color: #ffffff;
     }
 
-    .Instagram-wrapper {
+    .instagram-wrapper {
         width: 90%;
     }
 
