@@ -58,8 +58,7 @@ body {
 }
 
 .group:nth-child(1) {
-  min-width: 19rem;
-
+    min-height: 19rem;
 }
 
 .instagram-logo {
@@ -78,8 +77,6 @@ body {
 
 .profile-photo img {
     height: 6rem;
-    border-radius: 100%;
-    margin: 15px;
 }
 
 .instagram-login {
@@ -137,15 +134,15 @@ body {
 
 /* media queries */
 
-@media (max-width: 1024px) {
-    .instagram-wrapper{
+@media (max-device-width: 1024px) {
+    .instagram-wrapper {
         width: 90%;
     }
     
 }
 
-@media (max-width: 650px) {
-    body{
+@media  (max-device-width: 650px) {
+    body {
         background-color: #ffffff;
     }
 
